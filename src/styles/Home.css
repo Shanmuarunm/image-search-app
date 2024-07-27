@@ -1,0 +1,51 @@
+Home.css
+.container {
+    padding: 16px;
+    position: relative;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  @media (max-width: 600px) {
+    /* Mobile styles */
+    .container {
+      padding: 8px;
+    }
+  
+    .header h1 {
+      font-size: 24px;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 1200px) {
+    /* Tablet styles */
+    .container {
+      padding: 16px;
+    }
+  
+    .header h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Desktop styles */
+    .container {
+      padding: 24px;
+    }
+  
+    .header h1 {
+      font-size: 30px;
+    }
+  }
+  
