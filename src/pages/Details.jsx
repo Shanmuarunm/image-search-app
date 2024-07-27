@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { Container, Typography, Button, CardMedia } from '@mui/material';
 import { toast } from 'react-toastify';
 import { useSelector } from 'react-redux';
