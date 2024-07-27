@@ -30,15 +30,24 @@ body {
     margin-top: 15px !important;
   }
 
-  .card-content .css-vmxykm-MuiTypography-root {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  /* .card-content .css-vmxykm-MuiTypography-root {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+} */
+
+.card-content .image-desc{
+    margin-top: 5px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
 }
 
 .image-desc{
-    margin-top: 5px !important;
+  margin-top: 5px !important;
+  text-align: justify;
 }
+
 
 .image-detailedview{
     margin-bottom: 15px !important;
